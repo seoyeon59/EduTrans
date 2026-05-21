@@ -134,15 +134,20 @@ with st.sidebar:
 
     dept_map = {
         "문과 (Humanities)": [
-            "Business Administration", "Economics", "Marketing", "Accounting",
-            "International Relations", "Psychology", "Sociology",
-            "Media & Communication", "English Language & Literature", "Political Science"
+            "Business Administration", "Economics", "Finance", "Marketing", "Accounting",
+            "Law", "Education", "Psychology", "Philosophy", "Linguistics",
+            "Sociology", "Social Welfare", "International Relations", "Political Science",
+            "Media & Communication", "Tourism & Hospitality",
+            "English Language & Literature"
         ],
         "이과 (Science & Engineering)": [
             "Computer Science", "Data Science", "Artificial Intelligence Engineering",
+            "Statistics", "Information Security",
             "Electrical Engineering", "Mechanical Engineering", "Chemical Engineering",
-            "Biotechnology", "Nursing", "Architecture", "Civil Engineering",
-            "Mathematics", "Physics", "Medical"
+            "Environmental Engineering", "Civil Engineering",
+            "Biotechnology", "Mathematics", "Physics",
+            "Medical", "Nursing", "Pharmacy", "Food Science & Nutrition",
+            "Architecture"
         ],
         "예체능 (Arts & Sports)": [
             "Fine Arts", "Graphic Design", "Industrial Design", "Music Composition",
